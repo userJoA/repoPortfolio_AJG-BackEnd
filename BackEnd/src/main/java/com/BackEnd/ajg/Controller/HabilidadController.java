@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping ("/Habilidad")
-@CrossOrigin (origins = "http://localhost:4200")
+@CrossOrigin (origins = "https://ajg-portfolio.web.app/")
 public class HabilidadController {
     @Autowired
     ImpHabilidadService habilidadService;

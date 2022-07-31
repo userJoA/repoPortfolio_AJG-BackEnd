@@ -29,7 +29,7 @@ import com.BackEnd.ajg.Security.Controller.MensajeController;
  */
 @RestController
 @RequestMapping ("/Proyecto")
-@CrossOrigin (origins = "http://localhost:4200")
+@CrossOrigin (origins = "https://ajg-portfolio.web.app/")
 public class ProyectoController {
     @Autowired 
     ImpProyectoService proyectoService;

@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping ("/Educacion")
-@CrossOrigin (origins = "http://localhost:4200")
+@CrossOrigin (origins = "https://ajg-portfolio.web.app/")
 public class EducacionController {
     @Autowired
     ImpEducacionService educacionService;
